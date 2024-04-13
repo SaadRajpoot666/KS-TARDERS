@@ -1,0 +1,567 @@
+.PCtext{
+
+.head{
+    transition: 1s;
+}
+.head:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    text-shadow: 10px 10px 10px ;    
+
+}
+
+@keyframes ks{
+0%{transform: translateX(100px);}
+}
+.ks{
+    margin-left: 250px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+    
+    text-align: center;
+    display: inline-block;
+animation: ks 5s;
+font-size: 100px;
+font-family: libre bodoni;
+border: none solid darkcyan;
+border-radius: 10px;
+}
+
+@keyframes TRADERS{
+    0%{transform: translateY(100px);}
+    }
+
+    .TRADERS{
+        color: rgb(201, 16, 16);
+        display: inline-block;
+    animation: TRADERS 5s;
+    font-size: 100px;
+    font-family: libre bodoni;
+    border: none solid darkcyan;
+    border-radius: 10px; 
+
+    }
+    
+.introduction{
+    font-family: dancing script;
+    font-size: 39px;
+    color: #d3d3d3;
+    background-color: #008080;
+    border-radius: 10px;
+    border-color: rgb(41, 118, 211);
+    border:none solid;
+    width: 340px;
+    border-width: 2px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: background-color 0.15s, color 0.15s;
+    padding-left: 40px;
+    padding-right: 50px;
+    padding-top: 9px;
+    padding-bottom: 10px;
+    
+    }
+    .introduction:hover {
+        background-color: #d3d3d3;
+    color: #008080;
+
+    }
+    .introduction:active {
+    
+        opacity: 0.6;
+    }
+    
+.introduction-to-us{
+    margin-top: 40px;
+    font-family: merienda;
+    font-size: 20px;
+max-width: 500px;
+
+color: d0f4ea;
+display: grid;
+grid-template-columns: 500px 100px;
+
+margin-left:20px ;}    
+
+.ks,
+.TRADERS{
+font-family: dancing script;
+
+}
+
+.products{
+    margin-top: 100px;
+    text-align: center;
+        background-size: 100% 100%;
+    background-color: #b1cc74;
+color: white;
+font-size: 150px;
+font-weight: bolder;
+font-family: dancing script;
+transition: 1s;
+
+}
+.products:hover{
+    color: #b1cc74;
+    background-color: azure;
+    
+}
+
+
+.fivelitre{
+    display: inline-block;
+    font-family: merienda;
+    font-size: 45px;
+    margin-left: 80px;
+    color: #d3d3d3;
+    background-color: #008080;
+    border-radius: 10px;
+    border-color: rgb(41, 118, 211);
+    border:none solid;
+    padding: 15px;    
+    transition: 1s;
+    cursor: pointer;
+}
+.fivelitre:hover{
+    color: #008080;
+    background-color: #d3d3d3;
+}
+.oneandhalflitre{
+    
+    display: inline-block;
+font-family: merienda;
+font-size: 45px;
+margin-left: 220px;
+color: whitesmoke;
+background-color: #008080;
+border-radius: 10px;
+border-color: rgb(41, 118, 211);
+border:none solid;
+padding: 15px;    
+transition: 1s;
+cursor: pointer;
+}
+.oneandhalflitre:hover{
+    color: #008080;
+    background-color: #d3d3d3;
+}
+
+.fiveliter{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.fiveliter:hover{
+    color: #008080;
+}
+.oneandhalfliter{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.oneandhalfliter:hover{
+    color: #008080;
+}
+.halflitre{
+    
+    display: inline-block;
+font-family: merienda;
+font-size: 45px;
+margin-left: 395px;
+color: whitesmoke;
+background-color: #008080;
+border-radius: 10px;
+border-color: rgb(41, 118, 211);
+border:none solid;
+padding: 15px;    
+transition: 1s;
+cursor: pointer;
+}
+.halflitre:hover{
+    color: #008080;
+    background-color: #d3d3d3;
+}
+.halfliter{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.halfliter:hover{
+    color: #008080;
+}
+
+
+.end{
+    font: 40px dancing script;
+    background-color: black;
+    color: beige;
+    content: text;
+    padding-left: 550px;
+}
+}
+
+
+.phonetext{
+visibility:collapse;
+
+.head{
+    transition: 1s;
+text-align: center;
+}
+.head:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    text-shadow: 10px 10px 10px ;    
+
+}
+
+@keyframes ks{
+0%{transform: translateX(100px);}
+}
+.ks{
+
+    margin-top: 50px;
+    margin-bottom: 60px;
+    
+    
+    text-align: center;
+    display: inline-block;
+animation: ks 5s;
+font-size: 50px;
+font-family: libre bodoni;
+border: none solid darkcyan;
+border-radius: 10px;
+}
+
+@keyframes TRADERS{
+    0%{transform: translateY(100px);}
+    }
+
+    .TRADERS{
+        color: rgb(201, 16, 16);
+        display: inline-block;
+    animation: TRADERS 5s;
+    font-size: 50px;
+    font-family: libre bodoni;
+    border: none solid darkcyan;
+    border-radius: 10px; 
+
+    }
+    
+.introduction{
+    margin-left: 15px;
+    font-family: dancing script;
+    font-size: 15px;
+    color: #d3d3d3;
+    background-color: #008080;
+    border-radius: 10px;
+    border-color: rgb(41, 118, 211);
+    border:none solid;
+    width: 340px;
+    border-width: 2px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: background-color 0.15s, color 0.15s;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+    }
+    .introduction:hover {
+        background-color: #d3d3d3;
+    color: #008080;
+
+    }
+    .introduction:active {
+    
+        opacity: 0.6;
+    }
+    
+.introduction-to-us{
+    margin-top: 40px;
+    font-family: merienda;
+    font-size: 20px;
+margin-left: 15px;
+color: d0f4ea;
+display: grid;
+grid-template-columns: 500px 100px;
+}    
+
+.ks,
+.TRADERS{
+font-family: dancing script;
+
+}
+
+.products{
+    margin-top: 100px;
+
+    margin-right: 100px;
+    background-color: #b1cc74;
+color: white;
+font-size: 45px;
+font-weight: bolder;
+font-family: dancing script;
+transition: 1s;
+padding-left: 90px;
+}
+.products:hover{
+    color: #b1cc74;
+    background-color: azure;
+    
+}
+
+
+.fivelitre{
+    display: inline-block;
+    font-family: merienda;
+    font-size: 45px;
+    margin-left: 100px;
+    color: #d3d3d3;
+    background-color: #008080;
+    border-radius: 10px;
+    border-color: rgb(41, 118, 211);
+    border:none solid;
+    padding: 15px;    
+    transition: 1s;
+    cursor: pointer;
+}
+.fivelitre:hover{
+    color: #008080;
+    background-color: #d3d3d3;
+}
+.oneandhalflitre{
+    
+    display: inline-block;
+font-family: merienda;
+font-size: 45px;
+margin-left: 100px;
+color: whitesmoke;
+background-color: #008080;
+border-radius: 10px;
+border-color: rgb(41, 118, 211);
+border:none solid;
+padding: 15px;    
+transition: 1s;
+cursor: pointer;
+}
+.oneandhalflitre:hover{
+    color: #008080;
+    background-color: #d3d3d3;
+}
+
+.fiveliter{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.fiveliter:hover{
+    color: #008080;
+}
+.oneandhalfliter{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.oneandhalfliter:hover{
+    color: #008080;
+}
+.halflitre{
+    
+    display: inline-block;
+font-family: merienda;
+font-size: 45px;
+margin-left: 100px;
+color: whitesmoke;
+background-color: #008080;
+border-radius: 10px;
+border-color: rgb(41, 118, 211);
+border:none solid;
+padding: 15px;    
+transition: 1s;
+cursor: pointer;
+}
+.halflitre:hover{
+    color: #008080;
+    background-color: #d3d3d3;
+}
+.halfliter{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.halfliter:hover{
+    color: #008080;
+}
+
+
+.end{
+    font: 40px dancing script;
+    background-color: black;
+    color: beige;
+    content: text;
+ text-align: center;   
+margin-right: 85px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes navbar{
+    0%{transform: translateY(-50px);}
+    
+    }
+    .navbar{
+        text-decoration: none;
+        background-color: #008080;
+     
+    position: relative;
+    animation: navbar 6s;    
+margin-right: 85px;    
+}
+    .navdiv{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .logo{
+    
+    font-size: 15px;
+    font-weight: 600;
+    color: beige;
+    font-family: dancing script;
+    transition: 1.5s;
+    }
+    .logo:hover{
+        cursor: pointer;
+
+        text-shadow: 10px 10px 10px ;    
+    
+    }
+    li{
+        list-style: none;
+        display: inline-block;
+    
+    
+    }
+    li a{
+        text-decoration: none;
+        font-style: bold;
+    font-size: 10px;
+        color: antiquewhite;
+    font-weight: bold;
+    border: none solid #008080;
+    margin-right: 5px;
+
+    border-radius: 50px;
+    font-family: merienda;
+    transition: 1s  ;
+    }
+    li a:hover{
+    color: #008080;
+    background-color: antiquewhite;
+    transform: scale(1.1);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+        .img1{
+            width: 50px;
+            position: fixed;
+            border-radius: 15px;
+        }
+        .fivel{ 
+            margin-left: 50px;
+            display: inline-block;
+            width: 500px;
+            border: 10px;
+            border-radius: 50px;
+            border-style: solid double solid double;
+            border-color: #008080;
+            backdrop-filter: contrast 140%;
+        transition: 1s;
+        }
+        .fivel:hover{
+        
+        box-shadow: 10px 10px 60px black;
+        }
+        .oneandhalfl{
+            backdrop-filter: contrast 140%;
+            border: 10px;
+            border-radius: 50px;
+            border-style: solid double solid double;
+            border-color: #008080;
+            display: inline-block;
+            margin-top: 100px;
+            width: 500px;
+            justify-content: space-between;
+        margin-left: 50px;
+        transition: 1s;
+        }
+        .oneandhalfl:hover{
+            box-shadow: 10px 10px 60px black;
+        }
+        
+        
+        
+        .halfl{
+        backdrop-filter: contrast 140%;
+        border: 10px;
+        border-radius: 50px;
+        border-style: solid double solid double;
+        border-color: #008080;
+        display: inline-block;
+        margin-top: 100px;
+        width: 500px;
+        margin-left: 50px;
+        transition: 1s;
+        }
+        .halfl:hover{
+            box-shadow: 10px 10px 60px black;
+        }
+        
+        .body{
+        margin: 0;
+                    width: 100vw;
+                    height: 500vh;
+                    display: flex;
+                    flex-direction: column;}
+
+
+        }
+
+@media only screen and (max-width:800px) {
+ .PCtext{
+    visibility: collapse;
+ }   
+ .phonetext{
+    visibility: visible;
+ }
+    
+}
+

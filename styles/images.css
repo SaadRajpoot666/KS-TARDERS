@@ -1,0 +1,80 @@
+ .img{
+width: 500px;
+float: right;
+    transition: 1s;
+    margin-right: 10px;
+border-radius: 30px; 
+}
+.img:hover{
+    transform: scale(1.1);
+}
+
+.img1{
+    width: 50px;
+    position: fixed;
+    border-radius: 15px;
+}
+.fivel{ 
+    display: inline-block;
+    width: 500px;
+    border: 10px;
+    border-radius: 50px;
+    border-style: solid double solid double;
+    border-color: #008080;
+    backdrop-filter: contrast 140%;
+transition: 1s;
+}
+.fivel:hover{
+
+box-shadow: 10px 10px 60px black;
+}
+.oneandhalfl{
+    backdrop-filter: contrast 140%;
+    border: 10px;
+    border-radius: 50px;
+    border-style: solid double solid double;
+    border-color: #008080;
+    display: inline-block;
+    margin-top: 100px;
+    width: 500px;
+    justify-content: space-between;
+margin-left: 100px;
+transition: 1s;
+}
+.oneandhalfl:hover{
+    box-shadow: 10px 10px 60px black;
+}
+
+
+
+.halfl{
+backdrop-filter: contrast 140%;
+border: 10px;
+border-radius: 50px;
+border-style: solid double solid double;
+border-color: #008080;
+display: inline-block;
+margin-top: 100px;
+width: 500px;
+margin-left: 350px;
+transition: 1s;
+}
+.halfl:hover{
+    box-shadow: 10px 10px 60px black;
+}
+
+
+
+
+
+
+
+
+
+
+.body{
+margin: 0;
+            width: 100vw;
+            height: 500vh;
+            display: flex;
+            flex-direction: column;}
